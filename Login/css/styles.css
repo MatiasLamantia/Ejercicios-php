@@ -1,0 +1,31 @@
+table {font-family: helvetica; border-spacing:0px}
+td, th {border:  1px solid;
+      padding: 10px;
+      min-width: 200px;
+      background: white;
+      box-sizing: border-box;
+      text-align: left;
+}
+
+thead th {
+  background: hsl(20, 50%, 70%);
+}
+
+tfoot {
+  bottom: 0;
+  z-index: 2;
+}
+
+tfoot td {
+  background: hsl(20, 50%, 70%);
+}
+
+.flat {
+    border: none;
+    background: none;
+}
+.flat:hover {
+    background: none;
+    border: none;
+    outline: none;
+}
